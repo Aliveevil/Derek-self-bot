@@ -11,9 +11,9 @@ import os
 
 print('LOADING DEREK SELFBOT....Till then consider joining my discord server or follow me on instagram')
 
-prefix = input('DEREK SB | PREFIX : ')
-token = input('DEREK SB | TOKEN: ')
-password = input('DEREK SB| PASSWORD: ')
+prefix = input('DEREK SB | PREFIX := ')
+token = input('DEREK SB | TOKEN:ODM5NDAyMTE3MzU2ODQ3MTA0.YNqS1A.KViKg1XfqACFn6uYkX_7AoIJJnA ')
+password = input('DEREK SB| PASSWORD:incorrect@123456 ')
 client = commands.Bot(command_prefix=prefix, case_insensitive=True, self_bot=True)
 client.remove_command(name='help')
 os.system('cls' if os.name == 'nt' else 'clear')
